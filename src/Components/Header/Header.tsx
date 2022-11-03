@@ -44,7 +44,9 @@ const Header = () => {
         >
           فارسی
         </button>
-        <DarkModeIcon className={cx(styles.iconStyle)} />
+        <button>
+          <DarkModeIcon className={cx(styles.iconStyle)} />
+        </button>
       </div>
     </div>
   );
