@@ -1,0 +1,13 @@
+.headerContainerStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  padding: 0 15px;
+}
+.headerTitleStyle {
+  font-family: iransansR !important;
+  font-size: 18px;
+  line-height: 1.6;
+}

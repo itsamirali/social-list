@@ -1,13 +1,36 @@
+@font-face {
+  font-family: iransansB;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../src/Fonts/iransans/ttf/IRANSansWeb_Bold.ttf) format("ttf"),
+    url(../src/Fonts/iransans/woff/IRANSansWeb_Bold.woff) format("woff"),
+    url(../src/Fonts/iransans/woff2/IRANSansWeb_Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: iransansM;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../src/Fonts/iransans/ttf/IRANSansWeb_Medium.ttf) format("ttf"),
+    url(../src/Fonts/iransans/woff/IRANSansWeb_Medium.woff) format("woff"),
+    url(../src/Fonts/iransans/woff2/IRANSansWeb_Medium.woff2) format("woff2");
+}
+@font-face {
+  font-family: iransansR;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../src/Fonts/iransans/ttf/IRANSansWeb.ttf) format("ttf"),
+    url(../src/Fonts/iransans/woff/IRANSansWeb.woff) format("woff"),
+    url(../src/Fonts/iransans/woff2/IRANSansWeb.woff2) format("woff2");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: iransansR sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
