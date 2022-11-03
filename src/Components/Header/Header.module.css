@@ -11,3 +11,25 @@
   font-size: 18px;
   line-height: 1.6;
 }
+.iconStyle {
+  color: #fff;
+  font-size: 32px;
+}
+.headerBtnStyle {
+  width: 70px;
+  height: 40px;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  font-family: iransansM;
+  font-size: 12px;
+  color: rgb(121, 131, 142);
+  border-radius: 4px;
+}
+.headerBtnStyle:hover,
+.headerBtnStyle:active {
+  background-color: rgba(255, 168, 46, 0.176);
+}
+.headerSelectedBtnStyle {
+  color: rgb(255, 168, 46);
+  
+}
