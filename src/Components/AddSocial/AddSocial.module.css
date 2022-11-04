@@ -1,0 +1,9 @@
+.addSocialContainer {
+  background-color: rgb(65, 72, 83);
+  border-radius: 16px;
+}
+.addSocialTitle {
+  color: #fff;
+  font-family: iransansM;
+  font-size: 16px;
+}

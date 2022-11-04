@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 import cx from "classnames";
-import WbSunnyIcon from "@mui/icons-material/WbSunny";
+// import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 
 const Header = () => {

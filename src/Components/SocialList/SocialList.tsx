@@ -5,6 +5,7 @@ import SocialItem from "../SocialItem/SocialItem";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TelegramIcon from "@mui/icons-material/Telegram";
+import AddSocial from "../AddSocial/AddSocial";
 
 const SocialList = () => {
   return (
@@ -45,6 +46,9 @@ const SocialList = () => {
         <AddIcon style={{ color: "rgb(255, 168, 46)", fontSize: "30px" }} />
         <span className="me-2">افزودن مسیر ارتباطی</span>
       </button>
+      <div className="w-100 d-flex align-items-center justify-content-center px-3 mb-4">
+        <AddSocial />
+      </div>
       <div className="w-100 d-flex align-items-center justify-content-center px-3">
         <SocialItem
           Icon={TwitterIcon}
