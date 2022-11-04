@@ -18,7 +18,6 @@
 .headerBtnStyle {
   width: 70px;
   height: 40px;
-  position: relative;
   transition: all 0.5s ease 0s;
   font-family: iransansM;
   font-size: 12px;

@@ -1,0 +1,30 @@
+.socialListContainerStyles {
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+  background: rgb(33, 43, 53);
+  min-height: 100px;
+  border-radius: 16px;
+}
+.boxTitleStyle {
+  font-family: iransansR, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.642857rem;
+  line-height: 1.66;
+  display: block;
+  color: rgb(121, 131, 142);
+}
+.addItemBtnStyle {
+  border-radius: 4px;
+  transition: all 0.5s ease 0s;
+  font-family: iransansM;
+  color: rgb(121, 131, 142);
+  border-radius: 4px;
+}
+.addItemBtnStyle span {
+    font-size: 16px;
+  color: rgb(255, 168, 46);
+}
+.addItemBtnStyle:hover {
+  background-color: rgba(255, 168, 46, 0.176);
+}
