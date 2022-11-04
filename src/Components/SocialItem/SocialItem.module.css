@@ -1,0 +1,44 @@
+.socilaContainer {
+  background-color: rgb(52, 60, 72);
+  border-radius: 16px;
+}
+.socialIcon {
+  color: #fff;
+  font-size: 30px !important;
+}
+.socialTitle {
+  color: #fff;
+  font-size: 18px;
+  font-family: iransansR;
+}
+.socialTitle span {
+  font-size: 14px !important;
+}
+
+.socialLink {
+  color: rgb(255, 168, 46);
+}
+.socialLink:hover {
+  color: rgb(255, 168, 46);
+}
+.controllBtnStyle {
+    font-size: 18px !important;
+    font-family: iransansR;
+    gap: 8px;
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+}
+.editBtnStyles {
+    color: rgb(255, 168, 46);
+}
+.editBtnStyles:hover,
+.editBtnStyles:active {
+    background-color: rgba(255, 168, 46, 0.113);
+}
+.delBtnStyles {
+    color: rgb(244, 67, 53);
+}
+.delBtnStyles:hover,
+.delBtnStyles:active {
+    background-color: rgba(244, 67, 53, 0.113);
+}
